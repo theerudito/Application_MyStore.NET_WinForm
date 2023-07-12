@@ -34,6 +34,8 @@ namespace Store.Database
         {
             optionsBuilder.UseSqlite(connectionStringSqlite);
             //optionsBuilder.UseNpgsql(connectionString);
+
+            //dasd
         }
     }
 }
