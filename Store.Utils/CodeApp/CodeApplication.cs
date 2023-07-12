@@ -3,6 +3,7 @@
     public static class CodeApplication
     {
         private static string condeApp = "250787";
+        private static string passwordUser = "123456";
 
         public static string EncriptarCode()
         {
@@ -16,8 +17,7 @@
 
         public static string EncriptarUser()
         {
-            string password = "123456";
-            return BCrypt.Net.BCrypt.HashPassword(password);
+            return BCrypt.Net.BCrypt.HashPassword(passwordUser);
         }
 
         public static string EncriptarAuth(string password)
