@@ -2,7 +2,7 @@
 using Store.DTO;
 using Store.Models;
 
-namespace Store.Utils.AutoMapper
+namespace Store.Utils
 {
     public class AutoMapperProfile : Profile
 
